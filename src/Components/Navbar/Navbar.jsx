@@ -40,7 +40,7 @@ const Menu =[
 
 const DropdownLinks=[
     {
-        id:2,
+        id:1,
         name:"Tranding Products",
         link:"/#",
     },
@@ -123,7 +123,7 @@ const Navbar = ({handleOrderPopup}) => {
                       {data.name}
                     </a>
                   </li>
-                ))}
+              ))}
               </ul>
             </div>
           </li>
