@@ -5,6 +5,7 @@ import { useState,useEffect } from 'react';
 import Banner from './Components/Banner/Banner';
 import Navbar from './Components/Navbar/Navbar';
 import Hero from './Components/Hero/Hero';
+import Products from './Components/Products/Products';
 
 function App() {
   const [orderPopup, setOrderPopup] = useState(false)
@@ -27,9 +28,9 @@ function App() {
    <div className='bg-white dark:bg-gray-900 dark:text-white duration-200' > 
 
 <Navbar handleOrderPopup={handleOrderPopup}/>
-<Hero />
+<Hero  handleOrderPopup={handleOrderPopup}/>
+<Products />
 <Banner />
-
 
 
 
