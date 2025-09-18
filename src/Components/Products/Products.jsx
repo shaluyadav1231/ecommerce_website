@@ -41,7 +41,7 @@ const ProductsData = [
   },
   {
     id: 5,
-    img: Img2,
+    img: Img2, 
     title: "Fashin T-Shirt",
     rating: 4.5,
     color: "Pink",
